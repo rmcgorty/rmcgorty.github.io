@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "McGorty Lab"
 title_separator          : "-"
 name                     : &name "Ryan McGorty"
-description              : &description "personal description"
+description              : &description "Optics, Soft Matter and Biophysics Lab at the University of San Diego"
 url                      : https://rmcgorty.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rmcgorty/rmcgorty.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Ryan McGorty"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Assistant Professor of Physics and Biophyics at USD"
   location         : "San Diego, CA"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -99,7 +99,7 @@ author:
   github           : "rmcgorty"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "mcgortylab_usd"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
