@@ -13,6 +13,6 @@ author_profile: true
 {% assign currentdate = post.date | date: "%Y" %} {% if currentdate != date %} {% unless forloop.first %}
 
 {% endunless %} <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}
-{% assign date = currentdate %} {% endif %} {% if post.authors contains 'Ricardo Henriques' %} {% include archive-single-pub.html %} {% endif %} {% if forloop.last %}
+{% assign date = currentdate %} {% endif %} {% if post.authors contains 'McGorty' %} {% include archive-single-pub.html %} {% endif %} {% if forloop.last %}
 {% endif %}
 {% endfor %}
