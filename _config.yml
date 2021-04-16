@@ -85,7 +85,7 @@ author:
   bio              : "Assistant Professor of Physics and Biophyics at USD"
   location         : "San Diego, CA"
   employer         : "University of San Diego"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Y0Fe_b4AAAAJ&hl=en"
   email            : "rmcgorty@sandiego.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
