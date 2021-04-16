@@ -11,7 +11,6 @@ paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00093d/'
 citation: ''
 theme: "ddm"
 ---
-{% include archive-single.html %}
 
 [Download paper here](http://academicpages.github.io/files/paper3.pdf)
 
