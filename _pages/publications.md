@@ -19,6 +19,9 @@ author_profile: true
     <ul style="margin:0;padding:0">
     {% assign date = currentdate %}
   {% endif %}
+  {% if post.authors contains 'Ricardo Henriques' %}
+    {% include archive-single-pub.html %}
+  {% endif %}
   {% if forloop.last %}</ul>{% endif %}
 
 {% endfor %}
