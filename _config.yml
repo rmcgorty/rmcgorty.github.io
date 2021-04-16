@@ -84,10 +84,10 @@ author:
   avatar           : "profile.png"
   bio              : "Assistant Professor of Physics and Biophyics at USD"
   location         : "San Diego, CA"
-  employer         :
+  employer         : "University of San Diego"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Y0Fe_b4AAAAJ&hl=en"
-  email            :
+  email            : "rmcgorty@sandiego.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -232,7 +232,7 @@ defaults:
       path: ""
       type: research
     values:
-      layout: single
+      layout: talk
       author_profile: true
       share: true
       comment: true
