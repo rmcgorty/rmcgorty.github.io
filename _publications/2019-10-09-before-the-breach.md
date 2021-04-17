@@ -9,7 +9,7 @@ authors: 'Anna Wang, Jos W. Zwanikken, David M. Kaz, Ryan McGorty, Aaron M. Gold
 doi: 10.1103/PhysRevE.100.042605
 paperurl: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.042605'
 citation: ''
-theme: "ddm, colloids"
+theme: "colloids"
 
 ---
 
