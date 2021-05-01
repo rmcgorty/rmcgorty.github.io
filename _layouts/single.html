@@ -95,9 +95,8 @@ layout: default
           <p>Citation: {{ page.citation }} </p>
         {% endif %}
 		
-		{% if page.excerpt %}
-		  <span style="font-size:0.8em;
-		  line-height: 1.0;"><p><b>Excerpt of abstract:</b> {{page.excerpt}}</p></span>
+		{% if page.collection == 'publications' and page.excerpt %}
+		  <span style="font-size:0.8em; line-height: 1.0;"><p><b>Excerpt of abstract:</b> {{page.excerpt}}</p></span>
 		{% endif %}
     
         </header>
