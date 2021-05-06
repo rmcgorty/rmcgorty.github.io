@@ -1,0 +1,6 @@
+<h2>  Presentations (test ...-list-theme): </h2>
+{% for post in site.talks reversed %}
+  {% if post.theme contains page.type %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
