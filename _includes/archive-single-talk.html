@@ -38,5 +38,31 @@
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+	
+	{% assign pubthemes = post.theme | split: ", " %}
+    {% assign counter1 = 0 %}
+    {% assign counter2 = 0 %}
+    {% for theme in site.research %}
+        {% for pubtheme in pubthemes %}
+            {% if pubtheme == theme.type %}
+                {% assign counter1 = counter1 | plus: 1 %}
+             {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% capture pub_themes %}
+        {% for theme in site.research %}
+             {% for pubtheme in pubthemes %}
+                {% if pubtheme == theme.type %}
+                  {% assign counter2 = counter2 | plus: 1 %}
+                  {% if counter1!=counter2 %}
+                      <a href="{{ theme.url }}">{{ theme.title }}</a>,
+                  {% else %}
+                      <a href="{{ theme.url }}">{{ theme.title }}</a>
+                  {% endif %}
+                {% endif %}
+             {% endfor %}
+        {% endfor %}
+    {% endcapture %}
+    <span style="font-size:0.85em; line-height: 0.5;"><b>Research themes:</b> {{ pub_themes }}</span><br>
   </article>
 </div>
