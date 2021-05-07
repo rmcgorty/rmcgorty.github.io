@@ -37,6 +37,7 @@
 				<img src="{{ "marchmeeting2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
 			{% elsif currentdate == "2019" %}
 				<img src="{{ "marchmeeting2019.png" | prepend: "/images/" | prepend: base_path }}" alt="">
+			{% endif %}
       {% elsif post.venue == "Nature methods" %}
         <img src="{{ "cover_nmeth.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Nature communications" %}
