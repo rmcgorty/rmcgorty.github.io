@@ -11,7 +11,7 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-TEST
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -22,7 +22,7 @@ TEST
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-		  style='object-fit: scale-down; max-height: 300px; margin-left: auto; margin-right: 1px;' 
+		  style='object-fit: scale-down; max-height: 200px; margin-left: auto; margin-right: 1px;' 
           alt="">
       </div>
     {% endif %}
