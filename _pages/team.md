@@ -32,12 +32,12 @@ author_profile: true
   </div>
 
 <hr-bold>
-<h2>PhD students</h2>
+<h2>Students</h2>
 <hr><br>
 <div class="grid">
 <div class="wrapper">
   {% for post in site.team %}
-    {% if post.tags contains 'phd' %}
+    {% if post.tags contains 'student' %}
       {% include archive-single-proj.html type="grid" %}
     {% endif %}
   {% endfor %}
@@ -45,12 +45,12 @@ author_profile: true
 </div>
 
 <hr-bold>
-<h2>Internship students</h2>
+<h2>High school students</h2>
 <hr><br>
 <div class="grid">
 <div class="wrapper">
   {% for post in site.team %}
-    {% if post.tags contains 'internship' %}
+    {% if post.tags contains 'highschool' %}
       {% include archive-single-proj.html type="grid" %}
     {% endif %}
   {% endfor %}
