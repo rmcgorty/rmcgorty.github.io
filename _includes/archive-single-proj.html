@@ -11,12 +11,12 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-test2
+test3
 <div class="{{ include.type | default: "list" }}__item" > 
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img style='height: 100%; padding: 5px; object-fit: contain;' src=
+        <img style='height: 100%; padding: 5px; object-fit: cover;' src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
