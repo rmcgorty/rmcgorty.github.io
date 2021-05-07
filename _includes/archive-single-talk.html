@@ -31,11 +31,11 @@
         <img src="{{ "cover_preprintsorg.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "APS March Meeting" %}
 		{% assign currentdate = post.date | date: "%Y" %}
-		{% if currentdate == 2021 %}
+		{% if currentdate == "2021" %}
 			<img src="{{ "marchmeeting2021.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-		{% elseif currentdate == 2020 %}
+		{% elseif currentdate == "2020" %}
 			<img src="{{ "marchmeeting2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-		{% elseif currentdate == 2019 %}
+		{% elseif currentdate == "2019" %}
 			<img src="{{ "marchmeeting2019.png" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Nature methods" %}
         <img src="{{ "cover_nmeth.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
