@@ -16,13 +16,12 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img style='object-fit: scale-down;' src=
+        <img style='object-fit: contain;' src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-		  style='object-fit: scale-down; max-height: 200px; margin-left: auto; margin-right: 1px;' 
           alt="">
       </div>
     {% endif %}
