@@ -12,46 +12,132 @@
   {% assign title = post.title %}
 {% endif %}
 
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+
+  {% if post.type contains 'Corresponding author' %}
+  <table style="border:1px dotted black;">
+  {% else %}
+  <table style="border: none;">
+  {% endif %}
+
+    <tr>
+    <td width="10%" style="border: none;">
+    {% if post.venue == "bioRxiv" %}
+		<img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "International Congress on Rheology" %}
+		<img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "APS March Meeting" %}
+		{% assign currentdate = post.date | date: "%Y" %}
+		{% if currentdate == "2021" %}
+			<img src="{{ "marchmeeting2021.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elsif currentdate == "2020" %}
+			<img src="{{ "marchmeeting2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elsif currentdate == "2019" %}
+			<img src="{{ "marchmeeting2019.png" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% endif %}
+    {% elsif post.venue == "Nature methods" %}
+        <img src="{{ "cover_nmeth.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "Nature communications" %}
+        <img src="{{ "cover_ncomm.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "Nature Cell Biology" %}
+        <img src="{{ "cover_natcellbio.gif" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "Scientific reports" %}
+        <img src="{{ "cover_scirep.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "SPIE" %}
+        <img src="{{ "cover_spie.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    
+    {% else %}
+        <img src="{{ "journal.png" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% endif %}
+    </td>
+
+        <td width="80%" style="border: none;">
+
+          <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
+            {% if post.link %}
+              <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+            {% else %}
+              <a href="{{ base_path }}{{ post.url }}" rel="permalink"><span style="color:#494E52">{{ title }}</span></a>
+            {% endif %}
+          </span>
+
+          {% if post.authors %}
+            {% assign authors = post.authors | split: ", " %}
+            {% assign found = false %}
+            {% assign nauthors = authors.size | minus: 1 %}
+
+            {% capture author_names %}
+              {% for author in authors %}
+                {% for team in site.team %}
+                  {% if author contains team.authorname %}
+                    {% if author != authors[nauthors] %}
+                      <a href="{{ team.url }}">*<u>{{ author }}</u>*</a>,
+                    {% else %}
+                      <a href="{{ team.url }}">*<u>{{ author }}</u>*</a>
+                    {% endif %}
+                    {% assign found = true %}
+                  {% endif %}
+                {% endfor %}
+
+                {% for collaborator in site.collaborations %}
+                  {% if author contains collaborator.authorname %}
+                    {% if author != authors[nauthors] %}
+                      <a href="{{ collaborator.url }}"><u>{{ author }}</u></a>,
+                    {% else %}
+                      <a href="{{ collaborator.url }}"><u>{{ author }}</u></a>
+                    {% endif %}
+                    {% assign found = true %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if found != true %}
+                  {% if author != authors[nauthors] %}
+                    {{ author }},
+                  {% else %}
+                    {{ author }}
+                  {% endif %}
+                {% endif %}
+                {% assign found = false %}
+              {% endfor %}
+            {% endcapture %}
+
+            <br><span style="font-size:0.85em; line-height: 0.5;"><i>{{ author_names }}</i></span><br>
           {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-	
-	{% assign pubthemes = post.theme | split: ", " %}
-    {% assign counter1 = 0 %}
-    {% assign counter2 = 0 %}
-    {% for theme in site.research %}
-        {% for pubtheme in pubthemes %}
-            {% if pubtheme == theme.type %}
+
+          {% if post.collection == 'talks' %}
+          <span style="font-size:0.8em;
+           line-height: 0.5;"><b>Presented at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
+			
+          {% endif %}
+
+          {% if post.type contains "Preprint" %}
+          <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(see <a href="https://doi.org/{{ post.preprint }}"> <u>preprint</u></a>)</cite></b></span><br>
+          {% elsif post.preprint and post.doi %}
+          <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(see <a href="https://doi.org/{{ post.doi }}"> <u>publication</u></a> or <a href="https://doi.org/{{ post.preprint }}"> <u>preprint</u></a>)</cite></b></span><br>
+          {% elsif post.doi %}
+          <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(see <a href="https://doi.org/{{ post.doi }}"> <u>publication</u></a>)</cite></b></span><br>
+          {% elsif post.paperurl %}
+          <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(see <a href="{{ post.paperurl }}"> <u>published abstract</u></a>)</cite></b></span><br>
+          {% else %}
+          <br>
+          {% endif %}
+
+          {% assign pubthemes = post.theme | split: ", " %}
+          {% assign counter1 = 0 %}
+          {% assign counter2 = 0 %}
+          {% for theme in site.research %}
+            {% for pubtheme in pubthemes %}
+              {% if pubtheme == theme.type %}
                 {% assign counter1 = counter1 | plus: 1 %}
-             {% endif %}
-        {% endfor %}
-    {% endfor %}
-    {% capture pub_themes %}
-        {% for theme in site.research %}
-             {% for pubtheme in pubthemes %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          {% capture pub_themes %}
+            {% for theme in site.research %}
+              {% for pubtheme in pubthemes %}
                 {% if pubtheme == theme.type %}
                   {% assign counter2 = counter2 | plus: 1 %}
                   {% if counter1!=counter2 %}
@@ -60,10 +146,22 @@
                       <a href="{{ theme.url }}">{{ theme.title }}</a>
                   {% endif %}
                 {% endif %}
-             {% endfor %}
-        {% endfor %}
-    {% endcapture %}
-    <span style="font-size:0.85em; line-height: 0.5;"><b>Research themes:</b> {{ pub_themes }}</span><br>
-	
+              {% endfor %}
+            {% endfor %}
+          {% endcapture %}
+          <span style="font-size:0.85em; line-height: 0.5;"><b>Research themes:</b> {{ pub_themes }}</span><br>
+
+          {% if post.type %}
+          <span style="font-size:0.85em; line-height: 0.5;"><b>Type: </b><i>{{ post.type }}</i></span><br>
+          {% endif %}
+
+          {% if post.resource-software %}
+          <span style="font-size:0.85em; line-height: 0.5;"><i>{{ post.resource-software }}</i></span><br>
+          {% endif %}
+
+    </td>
+
+    </tr>
+  </table>
   </article>
 </div>
