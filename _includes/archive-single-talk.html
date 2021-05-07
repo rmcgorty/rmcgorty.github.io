@@ -26,11 +26,17 @@
     <tr>
       <td width="10%" style="border: none;">
       {% if post.venue == "bioRxiv" %}
-        <img src="{{ "cover_bioRxiv.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Preprints.org" %}
+        <img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+      {% elsif post.venue == "International Congress on Rheology" %}
         <img src="{{ "cover_preprintsorg.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Soft Matter" %}
-        <img src="{{ "cover_softmatter.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+      {% elsif post.venue == "APS March Meeting" %}
+		{% assign currentdate = post.date | date: "%Y" %}
+		{% if currentdate == 2021 %}
+			<img src="{{ "marchmeeting2021.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elseif currentdate == 2020 %}
+			<img src="{{ "marchmeeting2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elseif currentdate == 2019 %}
+			<img src="{{ "marchmeeting2019.png" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Nature methods" %}
         <img src="{{ "cover_nmeth.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Nature communications" %}
