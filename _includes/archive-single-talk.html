@@ -24,76 +24,35 @@
   {% endif %}
 
     <tr>
-      <td width="10%" style="border: none;">
-      {% if post.venue == "bioRxiv" %}
-        <img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "International Congress on Rheology" %}
-        <img src="{{ "cover_preprintsorg.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "APS March Meeting" %}
-			{% assign currentdate = post.date | date: "%Y" %}
-			{% if currentdate == "2021" %}
-				<img src="{{ "marchmeeting2021.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-			{% elsif currentdate == "2020" %}
-				<img src="{{ "marchmeeting2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-			{% elsif currentdate == "2019" %}
-				<img src="{{ "marchmeeting2019.png" | prepend: "/images/" | prepend: base_path }}" alt="">
-			{% endif %}
-      {% elsif post.venue == "Nature methods" %}
+    <td width="10%" style="border: none;">
+    {% if post.venue == "bioRxiv" %}
+		<img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "International Congress on Rheology" %}
+		<img src="{{ "cover_preprintsorg.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+    {% elsif post.venue == "APS March Meeting" %}
+		{% assign currentdate = post.date | date: "%Y" %}
+		{% if currentdate == "2021" %}
+			<img src="{{ "marchmeeting2021.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elsif currentdate == "2020" %}
+			<img src="{{ "marchmeeting2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elsif currentdate == "2019" %}
+			<img src="{{ "marchmeeting2019.png" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% endif %}
+    {% elsif post.venue == "Nature methods" %}
         <img src="{{ "cover_nmeth.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Nature communications" %}
+    {% elsif post.venue == "Nature communications" %}
         <img src="{{ "cover_ncomm.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Nature Cell Biology" %}
+    {% elsif post.venue == "Nature Cell Biology" %}
         <img src="{{ "cover_natcellbio.gif" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Scientific reports" %}
+    {% elsif post.venue == "Scientific reports" %}
         <img src="{{ "cover_scirep.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "SPIE" %}
+    {% elsif post.venue == "SPIE" %}
         <img src="{{ "cover_spie.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Biomacromolecules" %}
-        <img src="{{ "cover_biomacromolecules.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "The Biophysicist" %}
-        <img src="{{ "cover_biophysicist.jpeg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Review of Scientific Instruments" %}
-        <img src="{{ "cover_rsi.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "The international journal of biochemistry & cell biology" %}
-        <img src="{{ "cover_tijbcb.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "JoVE (Journal of Visualized Experiments)" %}
-        <img src="{{ "cover_jove.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Cell" %}
-        <img src="{{ "cover_cell.gif" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Journal of Cell Biology" %}
-        <img src="{{ "cover_jcb.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Developmental cell" %}
-        <img src="{{ "cover_devcell.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Cell host & microbe" %}
-        <img src="{{ "cover_chm.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Methods in cell biology" %}
-        <img src="{{ "cover_micb.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "EMBO reports" %}
-        <img src="{{ "cover_emborep.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "PLoS pathogens" %}
-        <img src="{{ "cover_plospath.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "The Journal of Immunology" %}
-        <img src="{{ "cover_ji.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Nano Letters" %}
-        <img src="{{ "cover_nanoletters.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Physical Review E" %}
-        <img src="{{ "cover_pre.png" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Current Biology" %}
-        <img src="{{ "cover_currentbiology.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Optics Express" %}
-        <img src="{{ "cover_osa-oe.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Science" %}
-        <img src="{{ "cover_science.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Nature" %}
-        <img src="{{ "cover_nature.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Optics Letters" %}
-        <img src="{{ "cover_osa-ol.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% elsif post.venue == "Science Advances" %}
-        <img src="{{ "cover_scienceadvances.gif" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% else %}
+    
+    {% else %}
         <img src="{{ "journal.png" | prepend: "/images/" | prepend: base_path }}" alt="">
-      {% endif %}
-      </td>
+    {% endif %}
+    </td>
 
         <td width="80%" style="border: none;">
 
