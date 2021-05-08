@@ -11,7 +11,7 @@
   {% if published %}
     {% for post in site.publications reversed %}
       {% if post.authors contains page.authorname %}
-        {% include archive-single-pub-associate.html %}
+        {% include archive-single-pub.html %}
       {% endif %}
     {% endfor %}
   {% endif %}
