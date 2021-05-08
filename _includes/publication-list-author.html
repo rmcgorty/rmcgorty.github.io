@@ -1,0 +1,18 @@
+<h2>Publications with our group</h2>
+
+{% if page.authorname %}
+  {% assign published = false %}
+  {% for post in site.publications reversed %}
+    {% if post.authors contains page.authorname %}
+      {% assign published = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if published %}
+    {% for post in site.publications reversed %}
+      {% if post.authors contains page.authorname %}
+        {% include archive-single-pub-associate.html %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
