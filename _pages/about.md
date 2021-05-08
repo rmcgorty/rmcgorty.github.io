@@ -65,7 +65,7 @@ Example: editing a markdown file for a talk
 <div class="polaroid">
   <img src="/files/RuilinUsingTwoColorDDM.gif" alt="light sheet microscope in use" style="width:100%">
   <div class="container">
-  <p><a href="/team/2019-06-01-RY" rel="permalink">Ruilin You using the two-color differential dynamic microscope setup</a></p>
+  <p><a href="/team/2019-06-01-RY" rel="permalink">Ruilin You</a> using the two-color differential dynamic microscope setup</p>
   </div>
 </div>
 
