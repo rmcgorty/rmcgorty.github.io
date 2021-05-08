@@ -48,6 +48,19 @@ Example: editing a markdown file for a talk
 
 <img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
 
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+<img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
 For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
