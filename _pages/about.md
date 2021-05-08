@@ -48,10 +48,10 @@ Example: editing a markdown file for a talk
 
 <img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="archive__item-teaser">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <img style='object-fit: scale-down; max-height: 200px; margin-left: auto; margin-right: 1px;' src="/files/MichelleUsingLightSheet.gif" alt="">
-</div>
+
 
 For more info
 ------
