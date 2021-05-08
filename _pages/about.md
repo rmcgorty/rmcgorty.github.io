@@ -46,7 +46,7 @@ Example: editing a markdown file for a talk
 
 ![movie gif.q..?](/files/RuilinUsingTwoColorDDM.gif)
 
-<img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="width:200px;"/>
+<img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
 
 For more info
 ------
