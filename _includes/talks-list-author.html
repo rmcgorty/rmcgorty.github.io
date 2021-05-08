@@ -1,0 +1,18 @@
+<h2>Presentations while with our group</h2>
+
+{% if page.authorname %}
+  {% assign gavetalk = false %}
+  {% for post in site.talks reversed %}
+    {% if post.authors contains page.authorname %}
+      {% assign gavetalk = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if gavetalk %}
+    {% for post in site.talks reversed %}
+      {% if post.authors contains page.authorname %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
