@@ -48,18 +48,10 @@ Example: editing a markdown file for a talk
 
 <img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
 
-<div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}>
-
-<img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
-
-<div.container {
-  text-align: center;
-  padding: 10px 20px;
-}>
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <img style='object-fit: scale-down; max-height: 200px; margin-left: auto; margin-right: 1px;' src="/files/MichelleUsingLightSheet.gif" alt="">
+</div>
 
 For more info
 ------
