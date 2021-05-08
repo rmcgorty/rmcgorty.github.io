@@ -44,7 +44,7 @@ Many people use a git client to create files on their local computer and then pu
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)
 
-[movie gif...?](/files/RuilinUsingTwoColorDDM.gif)
+![movie gif.q..?](/files/RuilinUsingTwoColorDDM.gif)
 
 For more info
 ------
