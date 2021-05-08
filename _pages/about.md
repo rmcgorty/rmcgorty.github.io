@@ -68,6 +68,12 @@ Example: editing a markdown file for a talk
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <img style='object-fit: scale-down; max-height: 200px; margin-left: auto; margin-right: 1px;' src="/files/MichelleUsingLightSheet.gif" alt="">
 
+<div class="polaroid">
+  <img src="/files/MichelleUsingLightSheet.gif" alt="light sheet microscope in use" style="width:100%">
+  <div class="container">
+  <p>Light Sheet Microscope</p>
+  </div>
+</div>
 
 For more info
 ------
