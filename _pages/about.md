@@ -16,6 +16,8 @@ div.polaroid {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.container {
@@ -59,15 +61,10 @@ How to edit your site's GitHub repository
 Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
 Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
-![movie gif.q..?](/files/RuilinUsingTwoColorDDM.gif)
 
 <img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
 
-<div class="archive__item-teaser">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <img style='object-fit: scale-down; max-height: 200px; margin-left: auto; margin-right: 1px;' src="/files/MichelleUsingLightSheet.gif" alt="">
 
 <div class="polaroid">
   <img src="/files/MichelleUsingLightSheet.gif" alt="light sheet microscope in use" style="width:100%">
