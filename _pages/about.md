@@ -62,9 +62,12 @@ Many people use a git client to create files on their local computer and then pu
 
 Example: editing a markdown file for a talk
 
-
-<img src="/files/MichelleUsingLightSheet.gif" alt="lightsheet" style="display: block; width:200px; margin-left: auto; margin-right: auto"/>
-
+<div class="polaroid">
+  <img src="/files/RuilinUsingTwoColorDDM.gif" alt="light sheet microscope in use" style="width:100%">
+  <div class="container">
+  <p><a href="/team/2019-06-01-RY" rel="permalink">Ruilin You using the two-color differential dynamic microscope setup</a></p>
+  </div>
+</div>
 
 <div class="polaroid">
   <img src="/files/MichelleUsingLightSheet.gif" alt="light sheet microscope in use" style="width:100%">
