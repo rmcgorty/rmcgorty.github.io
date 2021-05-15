@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "The Lab of Fluids and Photons"
-  avatar           : 
+  avatar           : #comes up in _includes/author-profile.html
   bio              : "A lab studying soft (bio)materials and how they flow and deform using optics and other tools!"
   location         : "San Diego, CA"
   employer         : "University of San Diego"
