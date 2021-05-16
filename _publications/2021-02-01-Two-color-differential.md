@@ -12,6 +12,4 @@ citation: 'R. You and R. McGorty (2021). &quot;Two-color differential dynamic mi
 theme: "ddm"
 ---
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Find the [version posted to arXiv here](https://arxiv.org/abs/2101.12147).
