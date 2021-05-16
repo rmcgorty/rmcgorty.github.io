@@ -7,8 +7,8 @@ date: 2021-03-17
 venue: 'APS March Meeting'
 authors: 'Ruilin You, Ryan McGorty'
 paperurl: 'http://meetings.aps.org/Meeting/MAR21/Session/M71.164'
-citation: ''
-theme: "ddm"
+citation: 
+theme: "lightsheet, colloids"
 location: Virtual
 ---
 

@@ -6,8 +6,8 @@ excerpt: 'In this work, we explore the role of shear in structuring colloidal su
 date: 2020-12-15
 venue: 'International Congress on Rheology'
 authors: 'Dennis Terwilliger, Ryan McGorty'
-paperurl: ''
-citation: ''
+paperurl: 
+citation: 
 theme: "colloids"
 location: Virtual
 ---

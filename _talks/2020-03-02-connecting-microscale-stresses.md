@@ -7,8 +7,8 @@ date: 2020-03-02
 venue: 'APS March Meeting'
 authors: 'Karthik Peddireddy, Megan C. Lee, Jonathan Garamella, Ryan McGorty, Rae M. Robertson-Anderson'
 paperurl: 'http://meetings.aps.org/Meeting/MAR20/Session/A15.9'
-citation: ''
-theme: "ddm"
+citation: 
+theme: "ddm, dna, cytoskeleton"
 location: Virtual
 ---
 

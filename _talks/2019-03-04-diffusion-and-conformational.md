@@ -7,8 +7,8 @@ date: 2019-03-04
 venue: 'APS March Meeting'
 authors: 'Kathryn Regan, Devynn Wulstein, Shea Ricketts, Ryan McGorty, Rae M. Robertson-Anderson'
 paperurl: 'http://meetings.aps.org/Meeting/MAR19/Session/C64.3'
-citation: ''
-theme: "ddm"
+citation: 
+theme: "ddm, dna, cytoskeleton"
 location: Boston
 ---
 

@@ -8,7 +8,7 @@ venue: 'APS March Meeting'
 authors: 'Karthik Peddireddy, Gina Aguirre, Jonathan Garamella, Ryan McGorty, Rae M. Robertson-Anderson'
 paperurl: 'http://meetings.aps.org/Meeting/MAR21/Session/S24.6'
 citation: 
-theme: "ddm"
+theme: "ddm, dna"
 location: Virtual
 ---
 

@@ -7,8 +7,8 @@ date: 2020-03-02
 venue: 'APS March Meeting'
 authors: 'Jing Wang, Ryan McGorty'
 paperurl: 'http://meetings.aps.org/Meeting/MAR20/Session/A15.3'
-citation: ''
-theme: ""
+citation: 
+theme: "ddm, colloids"
 location: Virtual
 ---
 

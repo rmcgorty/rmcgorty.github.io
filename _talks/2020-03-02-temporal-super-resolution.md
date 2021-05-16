@@ -7,7 +7,7 @@ date: 2020-03-02
 venue: 'APS March Meeting'
 authors: 'Ruilin You, Ryan McGorty'
 paperurl: 'http://meetings.aps.org/Meeting/MAR20/Session/C71.26'
-citation: ''
+citation: 
 theme: "ddm"
 location: Virtual
 ---

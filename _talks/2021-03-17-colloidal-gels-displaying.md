@@ -7,7 +7,7 @@ date: 2021-03-17
 venue: 'APS March Meeting'
 authors: 'Dennis Terwilliger, John C. Brady, Ryan McGorty'
 paperurl: 'http://meetings.aps.org/Meeting/MAR21/Session/M71.167'
-citation: ''
+citation: 
 theme: "colloids"
 location: Virtual
 ---
