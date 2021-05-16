@@ -7,7 +7,7 @@ date: 2021-03-18
 venue: 'APS March Meeting'
 authors: 'Karthik Peddireddy, Gina Aguirre, Jonathan Garamella, Ryan McGorty, Rae M. Robertson-Anderson'
 paperurl: 'http://meetings.aps.org/Meeting/MAR21/Session/S24.6'
-citation: ''
+citation: 
 theme: "ddm"
 location: Virtual
 ---
