@@ -8,7 +8,7 @@ venue: 'The Biophysicist'
 authors: 'Caroline P. Riedstra, Ryan McGorty'
 doi: 10.35459/tbp.2019.000104
 paperurl: 'https://meridian.allenpress.com/the-biophysicist/article/1/1/5/431475/Liquid-Liquid-Phase-Separation-Undergraduate-Labs'
-citation: ''
-theme: ""
+citation: 
+theme: 
 ---
 
