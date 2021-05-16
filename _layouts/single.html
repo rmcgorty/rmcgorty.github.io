@@ -100,6 +100,10 @@ layout: default
 		{% if page.collection == 'publications' and page.excerpt %}
 		  <span style="font-size:0.8em; line-height: 1.0;"><p><b>Excerpt of abstract:</b> {{page.excerpt}}</p></span>
 		{% endif %}
+		
+		{% if page.collection == 'talks' and page.excerpt %}
+		  <span style="font-size:0.8em; line-height: 1.0;"><p><b>Excerpt of abstract:</b> {{page.excerpt}}</p></span>
+		{% endif %}
     
         </header>
       {% endunless %}
