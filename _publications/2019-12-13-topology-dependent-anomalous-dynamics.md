@@ -9,5 +9,5 @@ authors: 'Devynn Wulstein, Kathryn Regan, Jonathan Garamella, Ryan McGorty, Rae 
 doi: 10.1126/sciadv.aay5912
 paperurl: 'https://advances.sciencemag.org/content/5/12/eaay5912'
 citation: 
-theme: "ddm, dna, cytoskeleton"
+theme: "ddm, dna, cytoskeleton, lightsheet"
 ---
