@@ -8,6 +8,6 @@ venue: 'Optics Express'
 authors: 'Devynn Wulstein, Kathryn Regan, Rae M. Robertson-Anderson, Ryan McGorty'
 doi: 10.1364/OE.24.020881
 paperurl: 'https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-24-18-20881'
-citation: ''
-theme: "ddm"
+citation: 
+theme: "lightsheet, ddm"
 ---
