@@ -8,6 +8,6 @@ venue: 'Nature Cell Biology'
 authors: 'Xiaoyu Shi, Galo Garcia III, Julie C. Van De Weghe, Ryan McGorty, Gregory J. Pazour, Dan Doherty, Bo Huang, Jeremy F. Reiter'
 doi: 10.1038/ncb3599
 paperurl: 'https://www.nature.com/articles/ncb3599'
-citation: ''
-theme: ""
+citation: 
+theme: 
 ---
