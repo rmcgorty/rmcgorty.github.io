@@ -9,5 +9,5 @@ authors: 'Kathryn Regan, Devynn Wulstein, Hannah Rasmussen, Ryan McGorty, Rae M.
 doi: 10.1039/C8SM02023J
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2019/sm/c8sm02023j'
 citation: 
-theme: "ddm, cytoskeleton, dna"
+theme: "ddm, cytoskeleton, dna, lightsheet"
 ---
