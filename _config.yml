@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "McGorty Lab TEST"
+title                    : "McGorty Lab"
 title_separator          : "-"
 name                     : &name "The Lab of Fluids and Photons"
 description              : &description "Optics, Soft Matter and Biophysics Lab at the University of San Diego"
