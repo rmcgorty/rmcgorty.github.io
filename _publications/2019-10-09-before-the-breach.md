@@ -8,11 +8,7 @@ venue: 'Physical Review E'
 authors: 'Anna Wang, Jos W. Zwanikken, David M. Kaz, Ryan McGorty, Aaron M. Goldfain, W. Benjamin Rogers, Vinothan N. Manoharan'
 doi: 10.1103/PhysRevE.100.042605
 paperurl: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.042605'
-citation: ''
-theme: "colloids"
+citation: 
+theme: "colloids, holography"
 
 ---
-
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: 	Soft Matter, 2020,16, 6344-6353.
