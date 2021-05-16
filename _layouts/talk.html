@@ -44,6 +44,14 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
+	  
+		{% if page.collection == 'talks' and page.paperurl %}
+		  <span style="font-size:1.0em; line-height: 1.0;"><p><a href="{{ page.paperurl }}">Link to published abstract.</a></p></span>
+		{% endif %}
+		
+		{% if page.collection == 'talks' and page.excerpt %}
+		  <span style="font-size:0.8em; line-height: 1.0;"><p><b>Excerpt of abstract:</b> {{page.excerpt}}</p></span>
+		{% endif %}
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
