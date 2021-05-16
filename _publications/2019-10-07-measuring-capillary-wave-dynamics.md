@@ -8,6 +8,6 @@ venue: 'Soft Matter'
 authors: 'Jing Wang, Ryan McGorty'
 doi: 10.1039/C9SM01508F
 paperurl: 'https://pubs.rsc.org/en/Content/ArticleLanding/2019/SM/C9SM01508F'
-citation: ''
+citation: 
 theme: "ddm, colloids"
 ---
