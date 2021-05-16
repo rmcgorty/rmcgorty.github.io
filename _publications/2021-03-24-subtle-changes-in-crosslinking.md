@@ -8,10 +8,6 @@ venue: 'Soft Matter'
 authors: 'Sylas Anderson, Jonathan Garamella, Serenity Adalbert, Ryan McGorty, Rae M Robertson-Anderson'
 doi: doi.org/10.1039/D1SM00093D
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00093d/'
-citation: ''
-theme: "ddm"
+citation: 
+theme: "ddm, cytoskeleton"
 ---
-
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Soft Matter, 2021
