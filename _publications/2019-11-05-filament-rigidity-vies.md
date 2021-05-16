@@ -8,6 +8,6 @@ venue: 'Biomacromolecules'
 authors: 'Sylas J. Anderson, Christelle Matsuda, Jonathan Garamella, Karthik Reddy Peddireddy Rae M Robertson-Anderson, Ryan McGorty'
 doi: 10.1021/acs.biomac.9b01057
 paperurl: 'https://pubs.acs.org/doi/10.1021/acs.biomac.9b01057'
-citation: ''
+citation: 
 theme: "ddm, cytoskeleton"
 ---
