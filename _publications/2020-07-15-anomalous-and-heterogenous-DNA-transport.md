@@ -8,11 +8,6 @@ venue: 'Soft Matter'
 authors: 'Jonathan Garamella, Kathryn Regan, Gina Aguirre, Ryan J McGorty, Rae M Robertson-Anderson'
 doi: 10.1039/D0SM00544D
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/sm/2020/d0sm00544d'
-citation: ''
-theme: "lightsheet"
+citation: 
+theme: "lightsheet, cytoskeleton, dna"
 ---
-This paper is about the number 3. The number 4 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: 	Soft Matter, 2020,16, 6344-6353.
