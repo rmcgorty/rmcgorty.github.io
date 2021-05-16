@@ -97,6 +97,14 @@ layout: default
           <p>Citation: {{ page.citation }} </p>
         {% endif %}
 		
+		{% if page.collection == 'publications' and page.paperurl %}
+		  <span style="font-size:1.0em; line-height: 1.0;"><p><a href="{{ page.paperurl }}">Link to publisher's version.</a></p></span>
+		{% endif %}
+		
+		{% if page.collection == 'talks' and page.paperurl %}
+		  <span style="font-size:1.0em; line-height: 1.0;"><p><a href="{{ page.paperurl }}">Link to published abstract.</a></p></span>
+		{% endif %}
+		
 		{% if page.collection == 'publications' and page.excerpt %}
 		  <span style="font-size:0.8em; line-height: 1.0;"><p><b>Excerpt of abstract:</b> {{page.excerpt}}</p></span>
 		{% endif %}
