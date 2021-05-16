@@ -9,5 +9,5 @@ authors: 'Sylas J. Anderson, Christelle Matsuda, Jonathan Garamella, Karthik Red
 doi: 10.1021/acs.biomac.9b01057
 paperurl: 'https://pubs.acs.org/doi/10.1021/acs.biomac.9b01057'
 citation: 
-theme: "ddm, cytoskeleton"
+theme: "ddm, cytoskeleton, lightsheet"
 ---
