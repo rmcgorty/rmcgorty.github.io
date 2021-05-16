@@ -8,6 +8,6 @@ venue: 'Soft Matter'
 authors: 'Anna Wang, Ryan McGorty, David M. Kaz, Vinothan N. Manoharan'
 doi: 10.1039/C6SM01690A
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2016/sm/c6sm01690a'
-citation: ''
-theme: "colloids"
+citation: 
+theme: "colloids, holography"
 ---
