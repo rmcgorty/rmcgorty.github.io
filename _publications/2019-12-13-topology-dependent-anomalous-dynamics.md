@@ -11,7 +11,3 @@ paperurl: 'https://advances.sciencemag.org/content/5/12/eaay5912'
 citation: 
 theme: "ddm, dna, cytoskeleton"
 ---
-
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: 	Soft Matter, 2020,16, 6344-6353.
