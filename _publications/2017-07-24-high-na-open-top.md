@@ -8,6 +8,6 @@ venue: 'Optics Express'
 authors: 'Ryan McGorty, Dan Xie, Bo Huang'
 doi: 10.1364/OE.25.017798
 paperurl: 'https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-25-15-17798'
-citation: ''
-theme: ""
+citation: 
+theme: "lightsheet"
 ---
