@@ -8,7 +8,7 @@ venue: 'APS March Meeting'
 authors: 'John Brady, Ryan McGorty'
 paperurl: 'http://meetings.aps.org/Meeting/MAR20/Session/M71.285'
 citation: 
-theme: "colloids"
+theme: "colloids, rheology"
 location: Virtual
 ---
 
