@@ -18,6 +18,7 @@ author_profile: true
 </div>
 </div>
 
+{% if False %}
 <hr-bold>
 <h2>Post-doctoral researchers</h2>
 <hr><br>
@@ -30,6 +31,7 @@ author_profile: true
   {% endfor %}
   </div>
   </div>
+ {% endif %}
 
 <hr-bold>
 <h2>Students</h2>
