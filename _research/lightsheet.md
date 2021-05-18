@@ -5,7 +5,7 @@ collection: research
 date: 2014-09-01
 author_profile: true
 header:
-  teaser: lsm.jpg
+  teaser: lsm.png
 layout: archive
 ---
 
