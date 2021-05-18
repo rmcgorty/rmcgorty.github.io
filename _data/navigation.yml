@@ -1,5 +1,11 @@
 # main links links
 main:
+  - title: "Team"
+    url: /team/
+    
+  - title: "Research"
+    url: /research/
+    
   - title: "Publications"
     url: /publications/
 
@@ -9,17 +15,16 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Research"
-    url: /research/
+  - title: "Tutorials"
+    url: /tutorials/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+[comment]: #  - title: "Blog Posts"
+[comment]: #    url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+ [comment]: #- title: "CV"
+ [comment]: #url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+ [comment]: #- title: "Guide"
+ [comment]: #url: /markdown/
     
-  - title: "Team"
-    url: /team/
+
