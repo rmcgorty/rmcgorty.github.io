@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Soft Matter Physics Lab at USD"
+title: "The Lab of Fluids and Photons at the University of San Diego"
 author_profile: true
 redirect_from: 
   - /about/
