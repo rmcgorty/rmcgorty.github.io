@@ -8,7 +8,7 @@ venue: 'APS March Meeting'
 authors: 'Dennis Terwilliger, John C. Brady, Ryan McGorty'
 paperurl: 'http://meetings.aps.org/Meeting/MAR21/Session/M71.167'
 citation: 
-theme: "colloids"
+theme: "colloids, rheology"
 location: Virtual
 ---
 
