@@ -8,7 +8,7 @@ venue: 'International Congress on Rheology'
 authors: 'Dennis Terwilliger, Ryan McGorty'
 paperurl: 
 citation: 
-theme: "colloids"
+theme: "colloids, rheology"
 location: Virtual
 ---
 
