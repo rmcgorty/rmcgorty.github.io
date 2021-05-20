@@ -9,7 +9,7 @@ header:
 layout: archive
 ---
 
-We investigate the transport properties of colloidal particles and DNA molecules in cytoskeleton networks made of entangled and/or cross-linked actin and microtubule filaments. Lab members use (DDM)[/research/ddm] and (light-sheet microscopy)[/research/lightsheet] with in vitro networks to measure how the crowded biopolymer networks impede motion of particles and macromolecules.  
+We investigate the transport properties of colloidal particles and DNA molecules in cytoskeleton networks made of entangled and/or cross-linked actin and microtubule filaments. Lab members use [DDM](/research/ddm) and [light-sheet microscopy](/research/lightsheet) with in vitro networks to measure how the crowded biopolymer networks impede motion of particles and macromolecules.  
 
 {% include theme-team-members.html %}
 {% include publication-list-theme.html %}
