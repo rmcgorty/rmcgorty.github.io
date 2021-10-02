@@ -2,7 +2,7 @@
 title: "2015-16 Academic Year"
 collection: teaching
 type: "Physics 136, 136L, & 481W"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/2015-16-teaching
 venue: "University of San Diego"
 date: 2015-09-01
 ---
