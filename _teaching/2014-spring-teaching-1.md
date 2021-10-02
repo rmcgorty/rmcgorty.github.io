@@ -1,20 +1,19 @@
 ---
-title: "Teaching experience 1"
+title: "2015-16 Academic Year"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "University of San Diego"
+date: 2015
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+McGorty taught Physics 136 and 481W (later renamed 381).
 
-Heading 1
+Physics 136 (Fall 2015, Spring 2016)
 ======
 
-Heading 2
+Physics 136L (Fall 2015)
 ======
 
-Heading 3
+Physics 481W (Spring 2016)
 ======
