@@ -6,13 +6,10 @@ permalink: /teaching/2014-spring-teaching-1
 venue: "University of San Diego"
 date: 2015-09-01
 ---
+ 
 
+### Physics 136 (Fall 2015, Spring 2016)
 
-Physics 136 (Fall 2015, Spring 2016)
-======
+### Physics 136L (Fall 2015)
 
-Physics 136L (Fall 2015)
-======
-
-Physics 481W (later renamed 381) (Spring 2016)
-======
+### Physics 481W (later renamed 381) (Spring 2016)
