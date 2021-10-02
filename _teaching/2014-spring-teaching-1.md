@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University of San Diego"
-date: 2015
+date: 2015-09-01
 ---
 
 McGorty taught Physics 136 and 481W (later renamed 381).
