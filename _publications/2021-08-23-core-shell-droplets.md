@@ -6,7 +6,7 @@ excerpt: 'Microcapsules allow for the controlled containment, transport, and rel
 date: 2021-08-23
 venue: 'Soft Matter'
 authors: "Steven Dang, John Brady, Ryle Rel, Sreenidhi Surineni, Conor O'Shaughnessy, Ryan McGorty"
-doi: doi.org/10.1039/D1SM01091C
+doi: 10.1039/D1SM01091C
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm01091c/'
 citation: 
 theme: "colloids"
