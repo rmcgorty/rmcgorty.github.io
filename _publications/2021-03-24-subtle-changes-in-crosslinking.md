@@ -6,7 +6,7 @@ excerpt: 'Anomalous diffusion in crowded and complex environments is widely stud
 date: 2021-03-24
 venue: 'Soft Matter'
 authors: 'Sylas Anderson, Jonathan Garamella, Serenity Adalbert, Ryan McGorty, Rae M Robertson-Anderson'
-doi: doi.org/10.1039/D1SM00093D
+doi: 10.1039/D1SM00093D
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00093d/'
 citation: 
 theme: "ddm, cytoskeleton"
