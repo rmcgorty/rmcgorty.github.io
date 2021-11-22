@@ -40,7 +40,7 @@ Here at the University of San Diego in the [Department of Physics and Biophysics
 <div class="polaroid">
   <img src="/files/MichelleUsingLightSheet.gif" alt="light sheet microscope in use" style="width:100%">
   <div class="container">
-  <p>Light Sheet Microscope</p>
+  <p><a href="/team/2017-02-01-JW" rel="permalink">Michelle Wang</a> using one of the two light sheet microscopes we have built</p>
   </div>
 </div>
 
