@@ -31,6 +31,8 @@
         <img src="{{ "cover_preprintsorg.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Soft Matter" %}
         <img src="{{ "cover_softmatter.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+	  {% elsif post.venue == "JoVE" %}
+        <img src="{{ "cover_jove.gif" | prepend: "/images/" | prepend: base_path }}" alt="">
 	  {% elsif post.venue == "Journal of Rheology" %}
         <img src="{{ "cover_jor.gif" | prepend: "/images/" | prepend: base_path }}" alt="">
 	  {% elsif post.venue == "Frontiers in Physics" %}
