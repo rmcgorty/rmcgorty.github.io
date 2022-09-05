@@ -31,7 +31,9 @@
 		<img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
     {% elsif post.venue == "APS March Meeting" %}
 		{% assign currentdate = post.date | date: "%Y" %}
-		{% if currentdate == "2021" %}
+		{% if currentdate == "2022" %}
+			<img src="{{ "marchmeeting2022.png" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elsif currentdate == "2021" %}
 			<img src="{{ "marchmeeting2021.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
 		{% elsif currentdate == "2020" %}
 			<img src="{{ "marchmeeting2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
@@ -41,6 +43,11 @@
 			<img src="{{ "marchmeeting2018.png" | prepend: "/images/" | prepend: base_path }}" alt="">
 		{% elsif currentdate == "2017" %}
 			<img src="{{ "marchmeeting2017.png" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% endif %}
+	{% elsif post.venue == "ACS Spring Meeting" %}
+		{% assign currentdate = post.date | date: "%Y" %}
+		{% if currentdate == "2022" %}
+			<img src="{{ "acsspring2022.png" | prepend: "/images/" | prepend: base_path }}" alt="">
 		{% endif %}
     {% elsif post.venue == "Biophysical Society Annual Meeting" %}
         <img src="{{ "biophys2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
