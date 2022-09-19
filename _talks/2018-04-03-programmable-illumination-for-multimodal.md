@@ -1,5 +1,5 @@
 ---
-title: "Determining Forces in Macroscopic Fiber Networks Using Conductive Fabric"
+title: "Programmable illumination for multimodal microscopy using an electric paper (ePaper) display"
 collection: talks
 permalink: /talks/2018-04-03-programmable-illumination-for-multimodal
 excerpt: 'We present a highly-flexible, cost-effective multimodal microscope using a programmable electric paper display. We demonstrate its ability to acquire dark-field and phase contrast images. The display can be used with either incoherent or laser illumination.'
