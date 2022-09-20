@@ -18,7 +18,7 @@ author_profile: true
 </div>
 </div>
 
-{% if False %}
+{% if True %}
 <hr-bold>
 <h2>Post-doctoral researchers</h2>
 <hr><br>
