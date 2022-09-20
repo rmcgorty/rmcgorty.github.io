@@ -29,6 +29,8 @@
         <img src="{{ "cover_bioRxiv.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Preprints.org" %}
         <img src="{{ "cover_preprintsorg.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+	  {% elsif post.venue == "iScience" %}
+        <img src="{{ "cover_iscience.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Soft Matter" %}
         <img src="{{ "cover_softmatter.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
 	  {% elsif post.venue == "JoVE" %}
