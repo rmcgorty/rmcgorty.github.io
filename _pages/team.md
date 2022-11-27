@@ -46,6 +46,19 @@ author_profile: true
 </div>
 </div>
 
+<hr-bold>
+<h2>Collaborators and/or co-advisees</h2>
+<hr><br>
+<div class="grid">
+<div class="wrapper">
+  {% for post in site.team %}
+    {% if post.tags contains 'collab' %}
+      {% include archive-single-proj.html type="grid" %}
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
+
 
 <hr-bold>
 <h2>Alumni</h2>
