@@ -32,6 +32,13 @@ We recently released code for differential dynamic microscopy, an image analysis
 
 
 <div class="polaroid">
+  <img src="/files/OpticalTweezers.gif" alt="optical tweezers" style="width:100%">
+  <div class="container">
+  <p><a href="/team/2023-06-01-SW" rel="permalink">Selene</a> and <a href="/team/2023-07-01-ML" rel="permalink">Max</a> using optical tweezers.</p>
+  </div>
+</div>
+
+<div class="polaroid">
   <img src="/files/RuilinUsingTwoColorDDM.gif" alt="light sheet microscope in use" style="width:100%">
   <div class="container">
   <p><a href="/team/2019-06-01-RY" rel="permalink">Ruilin You</a> using the two-color differential dynamic microscope setup</p>
