@@ -52,7 +52,14 @@
 			<img src="{{ "acsspring2022.png" | prepend: "/images/" | prepend: base_path }}" alt="">
 		{% endif %}
     {% elsif post.venue == "Biophysical Society Annual Meeting" %}
-        <img src="{{ "biophys2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% assign currentdate = post.date | date: "%Y" %}
+		{% if currentdate == "2022" %}
+			<img src="{{ "biophys2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elsif currentdate == "2023" %}
+			<img src="{{ "BPS_2023.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% endif %}
+		{% endif %}
+        
     {% elsif post.venue == "Biophotonics Congress" %}
         <img src="{{ "BiophotonicsCongress.png" | prepend: "/images/" | prepend: base_path }}" alt="">
     {% elsif post.venue == "Nature Cell Biology" %}
