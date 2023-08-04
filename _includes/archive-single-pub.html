@@ -93,6 +93,8 @@
         <img src="{{ "cover_osa-ol.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Science Advances" %}
         <img src="{{ "cover_scienceadvances.gif" | prepend: "/images/" | prepend: base_path }}" alt="">
+      {% elsif post.venue == "Advanced Materials" %}
+        <img src="{{ "adma_cover.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% else %}
         <img src="{{ "journal.png" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% endif %}
