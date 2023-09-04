@@ -6,7 +6,7 @@ excerpt: 'We measure the dynamics of colloidal particles and DNA molecules using
 date: 2017-03-15
 venue: 'APS March Meeting'
 authors: 'Devynn Wulstein, Ryan McGorty'
-paperurl: 'http://meetings.aps.org/Meeting/MAR17/Session/M1.170'
+paperurl: 'http://meetings.aps.org/link/BAPS.2017.MAR.M1.170'
 citation: 
 theme: "ddm, lightsheet"
 location: New Orleans
