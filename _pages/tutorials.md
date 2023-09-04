@@ -73,6 +73,7 @@ We have a DHR-3 rheometer from TA Instruments.
 * Watch the [DHR Quickstart e-Training Course](https://www.tainstruments.com/discovery-hybrid-rheometer-quick-start-e-training-course/) before you start 
 * Guide on the [TRIOS software](https://www.tainstruments.com/trios-quickstart-guide-basic-data-analysis-applications-in-rheology/) used for controlling the DHR-3
 * More to learn from the [rheology webinars](https://www.tainstruments.com/support/webinars/?term=6608) at TA Instruments website
+  * Particularly the [Rheology of Soft Biomaterials](https://www.tainstruments.com/rheology-of-soft-biomaterials/) webinar
 
 
 ## Training videos
