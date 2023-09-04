@@ -1,6 +1,6 @@
 ---
 permalink: /tutorials/
-title: "Tutorials"
+title: "Training materials and tutorials"
 author_profile: true
 redirect_from: 
   - /tutorials.html
@@ -8,196 +8,74 @@ redirect_from:
 
 Testing a [lin](/ddm_tutorial/)
 
-## Locations of key files/directories
+## Basic lab training material
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+* [Shared Google document for lab "bootcamp"](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit?usp=drive_link)
+* The document above has multiple parts, including:
+  * [Guide to maintaining a lab notebook](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.7mlsra7bqz9c)
+  * [Safety and wetlab techniques](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.5koh0s8782vb)
+  * [Microscopy usage](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.dom419m0dx0x)
+  * Computational / analysis methods:
+    * [Fiji/ImageJ](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.egt32x525jtk)
+	* [Python](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.yhh0nh6tn1f5)
 
-## Tips and hints
 
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
+## More on microscopy
 
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
+We use multiple microscopy methods in our lab. Above, there is the link to our quick tutorial on using our microscopes. 
+We also have a [short guide on using the Olympus IX73](https://docs.google.com/document/d/1Xycds79wexd_7W35GkwlVKRmiCgKKPw_29IXOKs-Bf8/edit?usp=sharing)
+(we have two of these microscopes in Shiley Center for Science and Technology, one in SCST 255 and one in SCST 292).
 
-## Markdown guide
+In addition to those inverted microscopes we use for wide-field imaging, we also have access to a Nikon confocal microscope 
+in SCST 148. We also use two custom-built light sheet (or selective plane illumination) microscopes in our lab in SCST 255. 
 
-### Header three
+There are also a lot of very nice tutorials and guides at [MicroscopyU](https://www.microscopyu.com/). For instance:
+* [Introduction to fluorescence microscopy](https://www.microscopyu.com/techniques/fluorescence/introduction-to-fluorescence-microscopy)
+* [Inverted microscope optical pathway](https://www.microscopyu.com/tutorials/tepaths)
+* [Useful magnification ranges](https://www.microscopyu.com/microscopy-basics/useful-magnification-range)
+* [Properties of microscope objectives](https://www.microscopyu.com/microscopy-basics/properties-of-microscope-objectives)
+* [Introduction to confocal microscopy concepts](https://www.microscopyu.com/techniques/confocal/introductory-confocal-concepts)
 
-#### Header four
+For guides on using more specialized types of microscopy we use in the lab:
+* [Overview of light sheet fluorescence microscopy from MicroscopyU](https://www.microscopyu.com/techniques/light-sheet/light-sheet-fluorescence-microscopy)
+* [Selective Plane Illumination Microscopy (SPIM) guides from OpenSPIM](https://openspim.org/)
+* [High NA single-objective light-sheet paper](https://andrewgyork.github.io/high_na_single_objective_lightsheet/index.html)
 
-##### Header five
-
-###### Header six
-
-## Blockquotes
-
-Single line blockquote:
-
-> Quotes are cool.
-
-## Tables
-
-### Table 1
-
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-
-### Table 2
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
-
-## Definition Lists
-
-Definition List Title
-:   Definition list division.
-
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
-
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
-
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
-
-## Unordered Lists (Nested)
-
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
-
-## Ordered List (Nested)
-
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
+It is important to review these resources before using the microscopes in lab!
 {: .notice}
 
-## HTML Tags
 
-### Address Tag
+## More on computational methods
 
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
+As describes in the main [lab bootcamp training document](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit?usp=drive_link) 
+we use Python and ImageJ/Fiji pretty frequently. 
 
-### Anchor Tag (aka. Link)
+You should start by acquiring the necessary software:
+* Download and install [Fiji](https://imagej.net/software/fiji/), the "batteries-included" distribution of ImageJ
+  * We use Fiji for inspecting images and doing quick analyses
+* Download and install the [Anaconda distribution](https://www.anaconda.com/download) of Python
 
-This is an example of a [link](http://github.com "Github").
+We use differential dynamic microscopy for many projects. 
+* Our [paper on using DDM](https://www.jove.com/t/63931/quantifying-cytoskeleton-dynamics-using-differential-dynamic) at JoVE 
+* The [accompanying video showing DDM usage](https://www.jove.com/v/63931/quantifying-cytoskeleton-dynamics-using-differential-dynamic) at JoVE 
+* Our [PyDDM software package documentation](https://rmcgorty.github.io/PyDDM/build/html/index)
 
-### Abbreviation Tag
 
-The abbreviation CSS stands for "Cascading Style Sheets".
+## Other software
 
-*[CSS]: Cascading Style Sheets
+* [Zotero](https://www.zotero.org/) is a great application for saving/managing references
+* [Inkscape](https://inkscape.org/) is a image editing program like Photoshop or Illustrator, but free to use
 
-### Cite Tag
 
-"Code is poetry." ---<cite>Automattic</cite>
+## Rheology
 
-### Code Tag
+We have a DHR-3 rheometer from TA Instruments. 
 
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+* Watch the [DHR Quickstart e-Training Course](https://www.tainstruments.com/discovery-hybrid-rheometer-quick-start-e-training-course/) before you start 
+* Guide on the [TRIOS software](https://www.tainstruments.com/trios-quickstart-guide-basic-data-analysis-applications-in-rheology/) used for controlling the DHR-3
+* More to learn from the [rheology webinars](https://www.tainstruments.com/support/webinars/?term=6608) at TA Instruments website
 
-### Strike Tag
 
-This tag will let you <strike>strikeout text</strike>.
+## Training videos
 
-### Emphasize Tag
-
-The emphasize tag should _italicize_ text.
-
-### Insert Tag
-
-This tag should denote <ins>inserted</ins> text.
-
-### Keyboard Tag
-
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
-
-### Preformatted Tag
-
-This tag styles large blocks of code.
-
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
-
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
+You can find a few videos on our [training YouTube channel](https://www.youtube.com/@Robertson-AndersonLab/videos)
