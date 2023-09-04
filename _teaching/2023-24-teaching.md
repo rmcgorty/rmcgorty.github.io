@@ -1,5 +1,5 @@
 ---
-title: "2020-21 Academic Year"
+title: "2023-24 Academic Year"
 collection: teaching
 type: "Physics 381 & 340"
 permalink: /teaching/2023-24-teaching
