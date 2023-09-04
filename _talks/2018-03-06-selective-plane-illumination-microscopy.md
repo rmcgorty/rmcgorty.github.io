@@ -6,7 +6,7 @@ excerpt: 'How polymers such as DNA move through crowded cytoskeletal environment
 date: 2018-03-08
 venue: 'APS March Meeting'
 authors: 'Devynn Wulstein, Kathryn Regan, Shea Ricketts, Rae M. Robertson-Anderson, Ryan McGorty'
-paperurl: 'http://meetings.aps.org/Meeting/MAR19/Session/X59.9'
+paperurl: 'https://meetings.aps.org/Meeting/MAR18/Session/E51.10'
 citation: 
 theme: "ddm, dna, cytoskeleton, lightsheet"
 location: Los Angeles
