@@ -6,8 +6,6 @@ redirect_from:
   - /tutorials.html
 ---
 
-Testing a [lin](/ddm_tutorial/)
-
 ## Basic lab training material
 
 * [Shared Google document for lab "bootcamp"](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit?usp=drive_link)
@@ -59,6 +57,7 @@ We use differential dynamic microscopy for many projects.
 * Our [paper on using DDM](https://www.jove.com/t/63931/quantifying-cytoskeleton-dynamics-using-differential-dynamic) at JoVE 
 * The [accompanying video showing DDM usage](https://www.jove.com/v/63931/quantifying-cytoskeleton-dynamics-using-differential-dynamic) at JoVE 
 * Our [PyDDM software package documentation](https://rmcgorty.github.io/PyDDM/build/html/index)
+* More on [DDM](/ddm_tutorial/)
 
 
 ## Other software
