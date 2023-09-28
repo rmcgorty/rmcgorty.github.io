@@ -28,6 +28,8 @@ div.container {
 
 Here at the University of San Diego in the [Department of Physics and Biophysics](https://www.sandiego.edu/cas/physics/) we look at a number of different soft and squishy materials (some living and some not) with a whole bunch of different optical microscopy methods. 
 
+Undergraduate students should check out an opportunity to work on research projects in Mexico over the 2024 summer. Details here: https://sites.google.com/view/nsf-ires-softmatter
+
 We recently released code for differential dynamic microscopy, an image analysis method we use in several projects. For more on that, see our [PyDDM documentation site](https://rmcgorty.github.io/PyDDM/build/html/index).
 
 
