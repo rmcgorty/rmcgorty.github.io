@@ -1,5 +1,5 @@
 ---
-title: "Optical tweezers map spatiotemporal force generation in active actin-microtubule compositesDynamics and rheology of colloidal rod suspensions measured with differential dynamic microscopy"
+title: "Dynamics and rheology of colloidal rod suspensions measured with differential dynamic microscopy"
 collection: talks
 permalink: /talks/2024-03-06-dynamics-and-rheology-of-colloidal-rod
 excerpt: ' '
