@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div class="polaroid">
-  <img src="/images/Soft Matter 2024 - Lyzzett Luis Danna Fermin.jpg" alt="Frontiers in Soft Matter 2024" style="width:100%">
+  <img src="/images/Soft Matter 2024 - Lyzzett Luis Danna Fermin.jpg" alt="Frontiers in Soft Matter 2024" style="width:30%">
   <div class="container">
   <p>Students who participated in <a href="https://sites.google.com/view/nsf-ires-softmatter">NSF IRES</a> project presenting at the 2024 Frontiers in Soft Matter Conference.</p>
   </div>
