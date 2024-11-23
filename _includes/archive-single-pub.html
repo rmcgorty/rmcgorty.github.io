@@ -27,6 +27,8 @@
       <td width="10%" style="border: none;">
       {% if post.venue == "bioRxiv" %}
         <img src="{{ "cover_bioRxiv.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+      {% elsif post.venue == "STAR Protocols" %}
+        <img src="{{ "star-protocols.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "Preprints.org" %}
         <img src="{{ "cover_preprintsorg.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
 	  {% elsif post.venue == "iScience" %}
