@@ -4,7 +4,7 @@ collection: teaching
 type: "Physics 270 & 494"
 permalink: /teaching/2022-23-teaching
 venue: "University of San Diego"
-date: 2023-09-01
+date: 2022-09-01
 ---
 ...
 

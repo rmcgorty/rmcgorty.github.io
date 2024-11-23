@@ -4,7 +4,7 @@ collection: teaching
 type: "Physics 381 & 340"
 permalink: /teaching/2023-24-teaching
 venue: "University of San Diego"
-date: 2024-09-01
+date: 2023-09-01
 ---
 ...
 
