@@ -31,7 +31,9 @@
 		<img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
     {% elsif post.venue == "APS March Meeting" %}
 		{% assign currentdate = post.date | date: "%Y" %}
-		{% if currentdate == "2024" %}
+		{% if currentdate == "2025" %}
+		<img src="{{ "aps_gps_2025.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+		{% elsif currentdate == "2024" %}
 			<img src="{{ "aps_mm_2024.png" | prepend: "/images/" | prepend: base_path }}" alt="">
 		{% elsif currentdate == "2023" %}
 			<img src="{{ "aps_mm2023.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
