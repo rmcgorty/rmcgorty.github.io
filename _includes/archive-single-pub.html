@@ -25,7 +25,9 @@
 
     <tr>
       <td width="10%" style="border: none;">
-      {% if post.venue == "bioRxiv" %}
+	  {% if post.venue == "PRX Life" %}
+		<img src="{{ "prxlife_cover.png" | prepend: "/images/" | prepend: base_path }}" alt="">
+      {% elsif post.venue == "bioRxiv" %}
         <img src="{{ "cover_bioRxiv.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
       {% elsif post.venue == "STAR Protocols" %}
         <img src="{{ "star-protocols.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
