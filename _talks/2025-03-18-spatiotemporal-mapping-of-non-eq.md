@@ -6,7 +6,7 @@ excerpt: ' '
 date: 2025-03-18
 venue: 'APS March Meeting'
 authors: 'Aysan Razzaghi, Elijah Avery, Megan Valentine, Ryan McGorty, Rae Robertson-Anderson'
-paperurl: 'https://summit.aps.org/smt/2025/events/MAR-G63/10'
+paperurl: 'https://schedule.aps.org/smt/2025/events/MAR-G63/10'
 citation: 
 theme: "rheology, ddm"
 location: Anaheim, CA

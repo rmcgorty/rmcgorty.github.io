@@ -6,7 +6,7 @@ excerpt: ' '
 date: 2025-03-19
 venue: 'APS March Meeting'
 authors: 'Elijah Avery, Anindya Chowdhury, Ryan McGorty'
-paperurl: 'https://summit.aps.org/smt/2025/events/MAR-M00/387'
+paperurl: 'https://schedule.aps.org/smt/2025/events/MAR-M00/387'
 citation: 
 theme: "ddm"
 location: Anaheim, CA

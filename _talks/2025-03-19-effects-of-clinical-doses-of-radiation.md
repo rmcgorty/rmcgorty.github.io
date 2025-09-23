@@ -6,7 +6,7 @@ excerpt: ' '
 date: 2025-03-19
 venue: 'APS March Meeting'
 authors: 'Kimberly Cruz, Andrea Kay Cajucom, Kayla Baker, Mauro Tambasco, Ryan McGorty'
-paperurl: 'https://summit.aps.org/smt/2025/events/MAR-M00/171'
+paperurl: 'https://schedule.aps.org/smt/2025/events/MAR-M00/171'
 citation: 
 theme: "rheology"
 location: Anaheim, CA
