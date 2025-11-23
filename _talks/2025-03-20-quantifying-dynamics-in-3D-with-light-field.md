@@ -6,7 +6,7 @@ excerpt: ' '
 date: 2025-03-20
 venue: 'APS March Meeting'
 authors: 'Dylan Gage, Gildardo Martinez, Zayda Kellogg, Ryan McGorty'
-paperurl: 'https://schedule.aps.org/smt/2025/events/MAR-N59/4'
+paperurl: 'https://schedule.aps.org/smt/2025/events/MAR-T58/6'
 citation: 
 theme: "ddm"
 location: Anaheim, CA
