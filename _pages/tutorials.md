@@ -8,14 +8,14 @@ redirect_from:
 
 ## Basic lab training material
 
-* [Shared Google document for lab "bootcamp"](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit?usp=drive_link)
+* [Shared Google document for lab "bootcamp"](https://docs.google.com/document/d/1y6gYsgC6CWbi1PtleGbxxYLR_rrn5uIK2-0Dj7ekn-g/edit?usp=sharing)
 * The document above has multiple parts, including:
-  * [Guide to maintaining a lab notebook](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.7mlsra7bqz9c)
-  * [Safety and wetlab techniques](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.5koh0s8782vb)
-  * [Microscopy usage](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.dom419m0dx0x)
+  * Guide to maintaining a lab notebook
+  * Safety and wetlab techniques
+  * Microscopy usage
   * Computational / analysis methods:
-    * [Fiji/ImageJ](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.egt32x525jtk)
-	* [Python](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit#bookmark=id.yhh0nh6tn1f5)
+    * Fiji/ImageJ
+	* Python
 
 
 ## More on microscopy
@@ -45,7 +45,7 @@ It is important to review these resources before using the microscopes in lab!
 
 ## More on computational methods
 
-As describes in the main [lab bootcamp training document](https://docs.google.com/document/d/1haCNZab_J01oH4hBomGoWEQcc_T93lHMyB_K7xG6ueY/edit?usp=drive_link) 
+As describes in the main [lab bootcamp training document](https://docs.google.com/document/d/1y6gYsgC6CWbi1PtleGbxxYLR_rrn5uIK2-0Dj7ekn-g/edit?usp=sharing) 
 we use Python and ImageJ/Fiji pretty frequently. 
 
 You should start by acquiring the necessary software:
