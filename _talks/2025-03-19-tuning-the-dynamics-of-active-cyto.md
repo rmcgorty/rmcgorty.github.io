@@ -6,7 +6,7 @@ excerpt: ' '
 date: 2025-03-19
 venue: 'APS March Meeting'
 authors: 'Katarina Matic, Maya Hendija, Michael Rust, Moumita Das, Megan Valentine, Ryan McGorty, Jennifer Ross, Rae Robertson-Anderson'
-paperurl: 'https://schedule.aps.org/smt/2025/events/MAR-L59/7'
+paperurl: 'https://meetings-archive.aps.org/smt/2025/events/MAR-L59/7'
 citation: 
 theme: "cytoskeleton"
 location: Anaheim, CA
