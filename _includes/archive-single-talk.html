@@ -29,6 +29,8 @@
 		<img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
     {% elsif post.venue == "International Congress on Rheology" %}
 		<img src="{{ "icr2020.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+	{% elsif post.venue == "APS Global Physics Summit 2026" %}
+		<img src="{{ "aps_gps_2026.png" | prepend: "/images/" | prepend: base_path }}" alt="">
     {% elsif post.venue == "APS March Meeting" %}
 		{% assign currentdate = post.date | date: "%Y" %}
 		{% if currentdate == "2025" %}
