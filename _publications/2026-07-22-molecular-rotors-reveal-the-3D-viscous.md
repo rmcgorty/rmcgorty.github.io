@@ -6,7 +6,7 @@ excerpt: "Interactions between bacteria and particulate organic matter, algae, c
 date: 2026-07-22
 venue: 'Nature Communications'
 authors: "Bryce G. Inman, Nirav Patel, Gabriel Castro-Falcón, Taylor Hernandez, Ryan McGorty, Aki H. Ohdera, Logan M. Gonzalez, Kay D. Bidle, Farooq Azam, Stuart Humphries"
-doi: 10.1038/10.1038/s41467-026-75892-y
+doi: 10.1038/s41467-026-75892-y
 paperurl: 'https://www.nature.com/articles/s41467-026-75892-y'
 citation: 
 theme: "rheology"
